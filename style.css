@@ -1,57 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .item {
-    margin-bottom: 20px;
-  }
-  
-  .item img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .item-name {
-    font-weight: bold;
-  }
-  
-  .quantity {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .quantity button {
-    background-color: #f0f0f0;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .quantity button:hover {
-    background-color: #ddd;
-  }
-  
-  .heart {
-    background-color: transparent;
-    border: none;
-    width: 20px;
-    height: 20px;
-    background-image: url('heart.png');
-    background-size: cover;
-    cursor: pointer;
-  }
-  
-  .heart.active {
-    background-color: red;
-  }
-  
-  .item-price {
-    float: right;
-  }
+  font-family: Arial, sans-serif;
+  background: -o-linear-gradient(b);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: linear-gradient(pink, violet);
+  background-size: 100%;
+  margin-top: 30px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.quantity {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.quantity button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity button:hover {
+  background-color: #ddd;
+}
+
+.heart {
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-image: url("heart.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.heart.active {
+  background-color: red;
+}
+
+.item-price {
+  float: right;
+}
